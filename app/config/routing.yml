@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+# my_page:
+#     path:     /my/page
+#     controller: App\Controller\MyController::number

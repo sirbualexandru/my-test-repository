@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container">
+	<div class="row">
+    <div class="col-sm-4">
+    	<a href="/my/pages" class="btn btn-default btn-xs">< Back to pages list</a>
+    </div>
+</div>
+
+ <div class="row">
+    <div class="col-sm-4">
+      <h3>{{ page.pageName }}</h3>
+      <p>{{ page.pageText }}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block stylesheets %}
+
+{% endblock %}
